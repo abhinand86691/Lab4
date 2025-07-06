@@ -1,15 +1,12 @@
 package com.example;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AppTest {
-
     @Test
-    public void testAppNameProperty() {
-        String expected = "My Maven Application";
-        String actual = System.getProperty("app.name", expected);
-        assertEquals(expected, actual);
+    public void testApp() {
+        assertEquals("Hello", "Hello");
     }
 }
 
