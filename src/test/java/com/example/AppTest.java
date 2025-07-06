@@ -1,7 +1,6 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import.junit.jupiter.api.Assertions.assertEquals;
 
 public class AppTest {
     @Test
@@ -9,4 +8,5 @@ public class AppTest {
         assertEquals("Hello", "Hello");
     }
 }
+
 
